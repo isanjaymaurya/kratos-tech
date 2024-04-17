@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kratos Tech - Building Digital Product</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Kratos Tech</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Kratos Tech</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="mailto:kratostech2020@gmail.com" class="btn btn-primary has-before has-after">Let’s Talk 👋</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Building Digital <span class="has-before">Product</span>, Brand and Experience
+            </h1>
+
+            <p class="hero-text">
+              At Kratos Tech we specialize in designing, building, shipping and scaling beautiful, usable products with
+              blazing-fast
+              efficiency
+            </p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(241, 77%, 63%);">
+                  <ion-icon name="logo-facebook"></ion-icon>
+
+                  <span class="span">Facebook</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(203, 89%, 53%);">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+
+                  <span class="span">LinkedIn</span>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Our Services</p>
+
+          <h2 class="h2 section-title text-center">Managing you business with our <span class="has-before">best
+              service</span></h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card" style="--color: 267, 76%, 57%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">App Development</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 267, 76%, 57%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Web Development</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 17, 100%, 68%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Fast Customer Support</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" id="feature" aria-label="feature">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="582" height="585" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle has-before">Why Choose us</p>
+
+            <h2 class="h2 section-title">
+              Specialist in aviding clients of financial <span class="has-before">challenges</span>
+            </h2>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 174, 77%, 50%">
+                    <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Fast working process</h3>
+
+                    <p class="card-text">
+                      At Kratos Tech we specialize in designing, building, shipping and scaling beautiful.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 241, 77%, 63%;">
+                    <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Didicated team</h3>
+
+                    <p class="card-text">
+                      At Kratos Tech we specialize in designing, building, shipping and scaling beautiful.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 343, 98%, 60%;">
+                    <ion-icon name="headset-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">24/7 hours support</h3>
+
+                    <p class="card-text">
+                      At Kratos Tech we specialize in designing, building, shipping and scaling beautiful.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Projects</p>
+
+          <h2 class="h2 section-title text-center">
+            Kratos Tech complete <span class="has-before">project</span>
+          </h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn active" data-filter-btn>Android App</button>
+            </li>
+
+          </ul>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 835; --height: 429;">
+                  <img src="./assets/images/project-1.png" width="835" height="429" loading="lazy" alt="Book art design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="https://play.google.com/store/apps/details?id=com.kratos_tech.train_indicator&hl=en_GB" target="_blank" class="card-title">Train Indicator</a>
+                  </h3>
+
+                  <a href="https://play.google.com/store/apps/details?id=com.kratos_tech.train_indicator&hl=en_GB" target="_blank" class="card-tag">App</a>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-2.jpg" width="416" height="429" loading="lazy" alt="Graphic Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Graphic Design</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Design</a>
+                </div>
+
+              </div>
+            </li> 
+            
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-3.jpg" width="416" height="429" loading="lazy" alt="3d Digital Art"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Train Indicator</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">App</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-4.jpg" width="416" height="429" loading="lazy" alt="Web Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Train Indicator</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">App</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-5.jpg" width="416" height="429" loading="lazy"
+                    alt="Mobile App Design" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Train Indicator</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">App</a>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Kratos Tech.
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="terms.html" class="footer-bottom-link">Terms and conditions</a>
+          </li>
+
+          <li>
+            <a href="privacy.html" class="footer-bottom-link">Privacy policy</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
