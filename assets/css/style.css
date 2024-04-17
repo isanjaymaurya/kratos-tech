@@ -17,7 +17,7 @@
   --raisin-black_90: hsla(240, 8%, 12%, 0.9);
   --raisin-black-1: hsl(240, 8%, 17%);
   --raisin-black-2: hsl(240, 8%, 12%);
-  --majorelle-blue: hsl(241, 77%, 63%);
+  --majorelle-blue: #5a58e9;
   --blue-ryb_80: hsla(241, 88%, 60%, 0.8);
   --bittersweet: hsl(0, 100%, 69%);
   --eerie-black: hsl(0, 0%, 13%);
@@ -42,7 +42,7 @@
    * typography
    */
 
-  --ff-dm-sans: 'Roboto', sans-serif;
+  --ff-dm-sans: 'Segoe UI', sans-serif;
 
   --fs-1: 4rem;
   --fs-2: 3.5rem;
